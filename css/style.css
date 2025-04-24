@@ -144,6 +144,7 @@ ul {
     justify-content: flex-end;
     background: url(../img/item-fon.png) no-repeat var(--color-purple);
     background-size: cover;
+    background-position: center;
     text-decoration: none;
 }
 .item-title {
@@ -156,6 +157,10 @@ ul {
                 
 }
 
+.item-title--dark {
+    color: var(--color-purple);
+}
+
 .list-item:hover .item-title,
 .list-item:focus .item-title {
     transform: scale(1.1)
@@ -163,4 +168,23 @@ ul {
 
 .hide {
     display: none;
+}
+
+.list-item--1 {
+    background-image: url("../img/comic9/вторая\ \(2\).jpg") ;
+}
+
+.list-item--2 {
+    background-image: url("../img/comicAnton/pik2.jpg") ;
+}
+
+.list-item--3 {
+    background-image: url("../img/comic-15/3.JPG") ;
+}
+
+.list-item--4 {
+    background-image: url("../img/comic21/slide1.jpg") ;
+}
+.list-item--5 {
+    background-image: url("../img/comic22/6_page.png");
 }
